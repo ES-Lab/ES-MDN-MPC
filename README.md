@@ -1,4 +1,4 @@
 # EV-Charging-MPC
 
-https://github.com/user-attachments/assets/2774cda7-631e-4d37-8032-4ca9b4734b6c
+https://github.com/user-attachments/assets/1c01dd5b-40a3-4400-a5b6-afa2cbfcb32d
 
