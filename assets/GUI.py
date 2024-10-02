@@ -160,11 +160,11 @@ class MainWindow(QMainWindow):
         plot_item.setLabel('bottom', 'Time', units='h', color='black', size='10pt')
 
 
-        # deman plot
+        # demand plot
         i = 1
         plot_item = self.graphics_layout.addPlot(row=2*i, col=3, rowspan=2)
         self.plot_items.append(plot_item)
-        self.bars = pg.BarGraphItem(x=np.arange(4), height=self.current_heights, width=0.6, brush='b')
+        self.bars = pg.BarGraphItem(x=np.arange(1,5,1), height=self.current_heights, width=0.6, brush='b')
         plot_item.addItem(self.bars)
         
         plot_item.showGrid(x=True, y=True, alpha=0.1)

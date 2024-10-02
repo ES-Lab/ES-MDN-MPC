@@ -18,15 +18,15 @@ import time
 # THREADS
 def GUI_plot_thread_fcn():
     current_time = clock.get_time()
-    time_list = clock.get_time_list()
-    x_ticks = [(i, str(j)) for i,j in zip(dash_board.x[::16], time_list[::16])]
+    # time_list = clock.get_time_list()
+    # x_ticks = [(i, str(j)) for i,j in zip(dash_board.x[::16], time_list[::16])]
     # dash_board.x = clock.get_time_list()
     histories = parking_lot.get_histories()
     for i in range(9):
         dash_board.curves[i].setData(dash_board.x, histories[:,i])
         dash_board.fills[i].setCurves(dash_board.curves[i], pg.PlotCurveItem(dash_board.x, np.zeros_like(dash_board.x)))
         dash_board.v_lines[i].setPos(24-current_time/4)
-    dash_board.plot_items[0].getAxis('bottom').setTicks([x_ticks])
+    # dash_board.plot_items[0].getAxis('bottom').setTicks([x_ticks])
 
     dash_board.update_demands(mpc.buffer['remaining_demand'][current_time])
 
