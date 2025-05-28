@@ -22,6 +22,7 @@ class PVdata:
     
     def load_day_measurement(self):
         self.day_data = -self.resampled_data['solar_measurement'].iloc[(self.day_num-1)*self.max_time:self.day_num*self.max_time].to_numpy()
+        self.forecast = -self.resampled_data['solar_prediction'].iloc[(self.day_num-1)*self.max_time:self.day_num*self.max_time].to_numpy()
 
     def next_day(self):
         self.day_num += 1
@@ -30,3 +31,9 @@ class PVdata:
     def step(self, current_time):
         if current_time >= self.max_time: self.next_day()
         return self.day_data[current_time]
+    
+    def merge_forecasst(self, t):
+        return np.concatenate((self.day_data[:t], self.forecast[t:]), axis=0)
+        
+
+
