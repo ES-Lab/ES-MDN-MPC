@@ -4,7 +4,7 @@ import pandas as pd
 class ElecPrice:
     def __init__(self, data_path='./data/day_ahead_prices_2022.csv'):
         self.price_data = pd.read_csv(data_path)
-        self.max_time = 24*4           # 24 hours of 15 minute intervals
+        self.max_time = 24           # 24 hours of 1 hour intervals
         self.day_num = 1
         self.load_day_measurement()
     
