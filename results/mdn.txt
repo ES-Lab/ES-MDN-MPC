@@ -1,0 +1,30 @@
+MDN with 1 comps, hidden 16:  Train loss=8.3078, Eval loss=8.3820, CRPS (abs): arrival=1.0498, duration=1.3286, energy=12.0809, CRPS (norm): arrival=0.1137, duration=0.2500, energy=0.3751
+MDN with 1 comps, hidden 32:  Train loss=8.2937, Eval loss=8.3056, CRPS (abs): arrival=1.0694, duration=1.3101, energy=12.0834, CRPS (norm): arrival=0.1158, duration=0.2465, energy=0.3752
+MDN with 1 comps, hidden 64:  Train loss=8.2329, Eval loss=8.3603, CRPS (abs): arrival=1.0502, duration=1.3235, energy=12.0784, CRPS (norm): arrival=0.1137, duration=0.2491, energy=0.3750
+MDN with 1 comps, hidden 128: Train loss=8.2187, Eval loss=8.3611, CRPS (abs): arrival=1.0579, duration=1.3177, energy=12.1382, CRPS (norm): arrival=0.1146, duration=0.2480, energy=0.3769
+MDN with 1 comps, hidden 256: Train loss=8.1355, Eval loss=8.4013, CRPS (abs): arrival=1.0624, duration=1.3254, energy=12.0893, CRPS (norm): arrival=0.1150, duration=0.2494, energy=0.3754
+
+MDN with 2 comps, hidden 16:  Train loss=8.2219, Eval loss=8.3378, CRPS (abs): arrival=1.0588, duration=1.3054, energy=12.1068, CRPS (norm): arrival=0.1147, duration=0.2457, energy=0.3759
+MDN with 2 comps, hidden 32:  Train loss=7.7491, Eval loss=7.8248, CRPS (abs): arrival=1.0116, duration=1.3100, energy=12.0801, CRPS (norm): arrival=0.1095, duration=0.2465, energy=0.3751
+MDN with 2 comps, hidden 64:  Train loss=7.8853, Eval loss=7.9923, CRPS (abs): arrival=1.0103, duration=1.3123, energy=12.0953, CRPS (norm): arrival=0.1094, duration=0.2470, energy=0.3755
+MDN with 2 comps, hidden 128: Train loss=7.7289, Eval loss=7.9167, CRPS (abs): arrival=1.0130, duration=1.3066, energy=12.1025, CRPS (norm): arrival=0.1097, duration=0.2459, energy=0.3758
+MDN with 2 comps, hidden 256: Train loss=7.6820, Eval loss=7.8857, CRPS (abs): arrival=1.0134, duration=1.3050, energy=12.1189, CRPS (norm): arrival=0.1097, duration=0.2456, energy=0.3763
+
+MDN with 3 comps, hidden 16:  Train loss=7.8062, Eval loss=7.8449, CRPS (abs): arrival=1.0104, duration=1.3047, energy=12.0601, CRPS (norm): arrival=0.1094, duration=0.2455, energy=0.3744
+MDN with 3 comps, hidden 32:  Train loss=7.7420, Eval loss=7.8149, CRPS (abs): arrival=1.0122, duration=1.3061, energy=12.1171, CRPS (norm): arrival=0.1096, duration=0.2458, energy=0.3762
+MDN with 3 comps, hidden 64:  Train loss=7.8752, Eval loss=8.0486, CRPS (abs): arrival=1.0108, duration=1.3084, energy=12.0828, CRPS (norm): arrival=0.1095, duration=0.2462, energy=0.3752
+MDN with 3 comps, hidden 128: Train loss=7.6717, Eval loss=7.8652, CRPS (abs): arrival=1.0114, duration=1.3097, energy=12.7398, CRPS (norm): arrival=0.1095, duration=0.2465, energy=0.3955
+MDN with 3 comps, hidden 256: Train loss=7.7239, Eval loss=8.0266, CRPS (abs): arrival=1.0133, duration=1.3051, energy=12.1301, CRPS (norm): arrival=0.1097, duration=0.2456, energy=0.3766
+
+MDN with 4 comps, hidden 16:  Train loss=7.9187, Eval loss=7.9952, CRPS (abs): arrival=1.0111, duration=1.3097, energy=12.0597, CRPS (norm): arrival=0.1095, duration=0.2465, energy=0.3744
+MDN with 4 comps, hidden 32:  Train loss=7.7915, Eval loss=7.8442, CRPS (abs): arrival=1.0099, duration=1.3105, energy=12.0878, CRPS (norm): arrival=0.1094, duration=0.2466, energy=0.3753
+MDN with 4 comps, hidden 64:  Train loss=7.6921, Eval loss=7.8610, CRPS (abs): arrival=1.0120, duration=1.3087, energy=12.4255, CRPS (norm): arrival=0.1096, duration=0.2463, energy=0.3858
+MDN with 4 comps, hidden 128: Train loss=7.6979, Eval loss=7.9350, CRPS (abs): arrival=1.0118, duration=1.3040, energy=12.1072, CRPS (norm): arrival=0.1096, duration=0.2454, energy=0.3759
+MDN with 4 comps, hidden 256: Train loss=7.7382, Eval loss=7.8660, CRPS (abs): arrival=1.0115, duration=1.3156, energy=12.0816, CRPS (norm): arrival=0.1095, duration=0.2476, energy=0.3751
+
+
+MDN with 5 comps, hidden 16:  Train loss=7.7037, Eval loss=7.8770, CRPS (abs): arrival=1.0125, duration=1.3099, energy=12.4280, CRPS (norm): arrival=0.1096, duration=0.2465, energy=0.3859
+MDN with 5 comps, hidden 32:  Train loss=7.7881, Eval loss=7.9471, CRPS (abs): arrival=1.0103, duration=1.3056, energy=12.1227, CRPS (norm): arrival=0.1094, duration=0.2457, energy=0.3764
+MDN with 5 comps, hidden 64:  Train loss=7.6762, Eval loss=7.8367, CRPS (abs): arrival=1.0145, duration=1.3079, energy=12.0969, CRPS (norm): arrival=0.1099, duration=0.2461, energy=0.3756
+MDN with 5 comps, hidden 128: Train loss=7.7013, Eval loss=7.9457, CRPS (abs): arrival=1.0126, duration=1.3088, energy=12.1590, CRPS (norm): arrival=0.1097, duration=0.2463, energy=0.3775
+MDN with 5 comps, hidden 256: Train loss=7.8444, Eval loss=8.0085, CRPS (abs): arrival=1.0119, duration=1.3183, energy=12.0844, CRPS (norm): arrival=0.1096, duration=0.2481, energy=0.3752
