@@ -1,0 +1,91 @@
+############################## MDN-MPC ##############################
+
+Running scenario 1...
+100%|██████████| 30/30 [1:00:46<00:00, 121.54s/it]
+Electricity cost (EUR): 2.95487683789121
+Emissions (gCO2eq): 5.616436492936804
+Power Peak (kW): 6.136532824594853
+Unmet demand (kWh): 4.140772766133859
+Running scenario 2...
+100%|██████████| 30/30 [58:41<00:00, 117.39s/it] 
+Electricity cost (EUR): 3.0491481605823263
+Emissions (gCO2eq): 5.7736957034273155
+Power Peak (kW): 6.818280413635468
+Unmet demand (kWh): 4.214500313763772
+Running scenario 3...
+100%|██████████| 30/30 [53:34<00:00, 107.15s/it]
+Electricity cost (EUR): 3.214688591335553
+Emissions (gCO2eq): 5.906321624387991
+Power Peak (kW): 7.977782792523951
+Unmet demand (kWh): 5.187201792470735
+Running scenario 4...
+100%|██████████| 30/30 [53:12<00:00, 106.42s/it]
+Electricity cost (EUR): 3.216043578971247
+Emissions (gCO2eq): 5.906321624387991
+Power Peak (kW): 7.9795393545427045
+Unmet demand (kWh): 5.1946173269533515
+
+################################ MPC ################################
+
+Running scenario 1...
+100%|██████████| 30/30 [59:18<00:00, 118.61s/it] 
+Electricity cost (EUR): 2.95487683789121
+Emissions (gCO2eq): 5.616436492936804
+Power Peak (kW): 6.136532824594853
+Unmet demand (kWh): 4.140772760335915
+Running scenario 2...
+100%|██████████| 30/30 [1:01:29<00:00, 122.97s/it]
+Electricity cost (EUR): 2.850890525029574
+Emissions (gCO2eq): 3.555238815479482
+Power Peak (kW): 7.819554639955014
+Unmet demand (kWh): 8.643354176482084
+Running scenario 3...
+100%|██████████| 30/30 [47:06<00:00, 94.22s/it] 
+Electricity cost (EUR): 3.5173272239732283
+Emissions (gCO2eq): 4.212628611636118
+Power Peak (kW): 10.11017433734366
+Unmet demand (kWh): 9.448395724297336
+Running scenario 4...
+100%|██████████| 30/30 [47:23<00:00, 94.80s/it] 
+Electricity cost (EUR): 3.5173272239732283
+Emissions (gCO2eq): 4.212628611636118
+Power Peak (kW): 10.11017433734366
+Unmet demand (kWh): 9.448395724297336
+
+############################ No Feedback ############################
+
+Running scenario 1...
+100%|██████████| 30/30 [01:33<00:00,  3.12s/it]
+Electricity cost (EUR): 2.948421306817226
+Emissions (gCO2eq): 4.625628217852079
+Power Peak (kW): 10.106592784618101
+Unmet demand (kWh): 7.923937374583106
+Running scenario 2...
+100%|██████████| 30/30 [01:40<00:00,  3.34s/it]
+Electricity cost (EUR): 2.9968272097155166
+Emissions (gCO2eq): 2.774916413409479
+Power Peak (kW): 11.189710273381719
+Unmet demand (kWh): 13.266360200873784
+Running scenario 3...
+100%|██████████| 30/30 [01:22<00:00,  2.75s/it]
+Electricity cost (EUR): 3.9642879177216375
+Emissions (gCO2eq): 3.421186315386878
+Power Peak (kW): 13.197990021857656
+Unmet demand (kWh): 14.492195525217232
+Running scenario 4...
+100%|██████████| 30/30 [01:22<00:00,  2.75s/it]
+Electricity cost (EUR): 3.9642879177216375
+Emissions (gCO2eq): 3.421186315386878
+Power Peak (kW): 13.197990021857656
+Unmet demand (kWh): 14.492195525217232
+
+########################### Deterministic ###########################
+
+Running scenario 1...
+100%|██████████| 30/30 [01:34<00:00,  3.14s/it]
+Electricity cost (EUR): 2.8118964957491834
+Emissions Peak (gCO2eq): 4.980693060399385
+Power Peak (kW): 4.685332787117778
+Unmet demand (kWh): 3.8071867046160586
+
+#####################################################################

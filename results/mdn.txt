@@ -22,7 +22,6 @@ MDN with 4 comps, hidden 64:  Train loss=7.6921, Eval loss=7.8610, CRPS (abs): a
 MDN with 4 comps, hidden 128: Train loss=7.6979, Eval loss=7.9350, CRPS (abs): arrival=1.0118, duration=1.3040, energy=12.1072, CRPS (norm): arrival=0.1096, duration=0.2454, energy=0.3759
 MDN with 4 comps, hidden 256: Train loss=7.7382, Eval loss=7.8660, CRPS (abs): arrival=1.0115, duration=1.3156, energy=12.0816, CRPS (norm): arrival=0.1095, duration=0.2476, energy=0.3751
 
-
 MDN with 5 comps, hidden 16:  Train loss=7.7037, Eval loss=7.8770, CRPS (abs): arrival=1.0125, duration=1.3099, energy=12.4280, CRPS (norm): arrival=0.1096, duration=0.2465, energy=0.3859
 MDN with 5 comps, hidden 32:  Train loss=7.7881, Eval loss=7.9471, CRPS (abs): arrival=1.0103, duration=1.3056, energy=12.1227, CRPS (norm): arrival=0.1094, duration=0.2457, energy=0.3764
 MDN with 5 comps, hidden 64:  Train loss=7.6762, Eval loss=7.8367, CRPS (abs): arrival=1.0145, duration=1.3079, energy=12.0969, CRPS (norm): arrival=0.1099, duration=0.2461, energy=0.3756
